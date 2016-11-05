@@ -1,4 +1,4 @@
-class Description
+class Products
   include Inesita::Component
 
   def render

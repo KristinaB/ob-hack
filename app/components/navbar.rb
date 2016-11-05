@@ -9,14 +9,14 @@ class NavBar
             text 'ob-hack'
           end
           ul class: 'nav navbar-nav' do
-            li class: "#{"active" if router.current_url?(:home)}" do
-              a href: router.url_for(:home) do
-                text 'Home'
+            li class: "#{"active" if router.current_url?(:store)}" do
+              a href: router.url_for(:store) do
+                text 'Store'
               end
             end
-            li class: "#{"active" if router.current_url?(:description)}" do
-              a href: router.url_for(:description) do
-                text 'Description'
+            li class: "#{"active" if router.current_url?(:products)}" do
+              a href: router.url_for(:products) do
+                text 'Products'
               end
             end
           end

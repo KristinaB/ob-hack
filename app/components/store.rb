@@ -1,11 +1,11 @@
-class Home
+class Store
   include Inesita::Component
 
   def render
     div class: 'jumbotron text-center' do
       img src: '/static/inesita-rb.png'
       h1 do
-        text "Hello I'm Inesita"
+        text "Hello I'm op return"
       end
       h4 do
         text 'This is a sample component'
