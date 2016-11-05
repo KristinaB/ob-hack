@@ -33,6 +33,7 @@ GEM
       tilt (>= 1.4)
     opal-virtual-dom (0.4.3)
       opal
+    puma (3.6.0)
     rack (2.0.1)
     rack-rewrite (1.5.1)
     rb-fsevent (0.9.8)
@@ -59,6 +60,7 @@ DEPENDENCIES
   bootstrap-sass
   inesita (~> 0.5.0)
   inesita-livereload (~> 0.1.0)
+  puma
 
 BUNDLED WITH
    1.12.5

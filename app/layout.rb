@@ -3,7 +3,7 @@ class Layout
 
   def render
     div class: 'container' do
-      component NavBar
+      # component NavBar
       component router
     end
   end
